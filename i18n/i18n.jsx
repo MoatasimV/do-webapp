@@ -29,11 +29,11 @@ import store from 'stores/redux_store.jsx';
 
 // should match the values in model/config.go
 const languages = {
-    de: {
-        value: 'de',
-        name: 'Deutsch',
+    fa: {
+        value: 'ar',
+        name: 'العربية',
         order: 0,
-        url: de,
+        url: ar,
     },
     en: {
         value: 'en',
@@ -125,11 +125,11 @@ const languages = {
         order: 15,
         url: uk,
     },
-    fa: {
-        value: 'fa',
-        name: 'فارسی (Alpha)',
+    da: {
+        value: 'de',
+        name: 'Deutsch',
         order: 16,
-        url: fa,
+        url: ar,
     },
     ko: {
         value: 'ko',
